@@ -2,6 +2,7 @@ class User  {
     name?: string;
     number?: string;
     email: string;
+    username: string;
     password: string;
     rePassword?: string;
     id?: string | number;
@@ -18,6 +19,7 @@ class User  {
         this.password = obj.password || '';
         this.email = obj.email || '';
         this.token = obj.token || '';
+        this.username = obj.username || '';
         this.id = obj.id || undefined;
         this.isGuest = obj.isGuest || false;
         this.refreshToken = '';
