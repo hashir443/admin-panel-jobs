@@ -11,6 +11,7 @@ import { ResetCredentialComponent } from './components/reset-password/reset-cred
 import { UpdatePasswordComponent } from './components/reset-password/update-password/update-password.component';
 import { RegisterComponent } from './components/register/register.component';
 import { SharedModule } from '../shared/shared.module';
+import { NgxIntlTelInputModule } from 'ngx-intl-tel-input'
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { SharedModule } from '../shared/shared.module';
   imports: [
     CommonModule,
     AuthRoutingModule,
-    SharedModule
+    SharedModule,
+    NgxIntlTelInputModule
   ]
 })
 export class AuthModule { }
