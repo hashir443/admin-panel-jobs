@@ -10,15 +10,16 @@
               Hello! Log in with your user name.
             </h6>
           </div>
-          <form>
+          <form [formGroup]="userForm"
+          (ngSubmit)="onSubmit(userForm)"
+          autocomplete="off">
             <div class="form-group">
-              <label for="exampleInputEmail1">User Name</label>
+              <label for="exampleInputEmail1">Username</label>
               <input
-                type="email"
+                type="text"
                 class="form-control"
-                id="exampleInputEmail1"
-                aria-describedby="emailHelp"
-                placeholder="Enter user name"
+                placeholder="Enter username"
+                formControlName="username"
               />
             </div>
             <div class="form-group">
@@ -26,8 +27,8 @@
               <input
                 type="password"
                 class="form-control"
-                id="exampleInputPassword1"
                 placeholder="Password"
+                formControlName="password"
               />
             </div>
             <div class="d-flex justify-content-end">
@@ -36,9 +37,9 @@
               >
             </div>
             <div class="d-flex justify-content-around">
-              <div class="button-color">
+              <button class="button-color" type="submit">
                 <span>Login</span>
-              </div>
+              </button>
             </div>
             <div class="row px-3 mb-4 d-flex justify-content-around mt-4">
               <div class="line"></div>

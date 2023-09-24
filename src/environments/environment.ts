@@ -10,6 +10,6 @@
 
 export const environment = {
   production: false,
-  baseURL: 'https://animalz.pk:8091/api/v1/',
+  baseURL: 'https://localhost:44351/api/',
   fileUploadBaseURL: 'https://animalz.pk:8094/api/v1/',
 };

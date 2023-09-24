@@ -12,6 +12,9 @@ import { UpdatePasswordComponent } from './components/reset-password/update-pass
 import { RegisterComponent } from './components/register/register.component';
 import { SharedModule } from '../shared/shared.module';
 import { NgxIntlTelInputModule } from 'ngx-intl-tel-input'
+import { ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { AuthService } from './services/auth.service';
 
 
 @NgModule({
@@ -29,7 +32,10 @@ import { NgxIntlTelInputModule } from 'ngx-intl-tel-input'
     CommonModule,
     AuthRoutingModule,
     SharedModule,
-    NgxIntlTelInputModule
-  ]
+    NgxIntlTelInputModule,
+    ReactiveFormsModule,
+    HttpClientModule
+  ],
+  providers: [AuthService]
 })
 export class AuthModule { }
