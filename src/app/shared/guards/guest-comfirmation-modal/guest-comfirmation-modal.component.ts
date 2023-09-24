@@ -4,7 +4,7 @@ import { Router } from '@angular/router';
 import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
-  selector: 'app-guest-comfirmation-modal',
+  selector: 'ngx-app-guest-comfirmation-modal',
   templateUrl: './guest-comfirmation-modal.component.html',
   styleUrls: ['./guest-comfirmation-modal.component.css']
 })

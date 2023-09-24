@@ -4,7 +4,7 @@ import { NgbModal } from '@ng-bootstrap/ng-bootstrap';
 import { Router } from '@angular/router';
 
 @Component({
-  selector: 'app-not-loggedin-modal',
+  selector: 'ngx-app-not-loggedin-modal',
   templateUrl: './not-loggedin-modal.component.html',
   styleUrls: ['./not-loggedin-modal.component.css']
 })

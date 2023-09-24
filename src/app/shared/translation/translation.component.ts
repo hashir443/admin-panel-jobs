@@ -5,7 +5,7 @@ import { GLOBAL } from '../global.config';
 import { AppLanguage } from '../../app.component';
 
 @Component({
-  selector: 'app-translation',
+  selector: 'ngx-app-translation',
   templateUrl: './translation.component.html',
   styleUrls: ['./translation.component.css']
 })

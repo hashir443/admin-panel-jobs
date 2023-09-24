@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-error-prompt',
+  selector: 'ngx-app-error-prompt',
   templateUrl: './error-prompt.component.html',
   styleUrls: ['./error-prompt.component.css']
 })
