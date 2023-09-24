@@ -1,42 +1,40 @@
-.button-color{
-    height: 40px;
-    background-color: rgb(14, 99, 156);
-    width: 90%;
-    border-radius: 20px;
-    display: flex;
-    right: 0;
-    justify-content: center;
-    align-items: center;
-
+.button-color {
+  height: 40px;
+  background-color: rgb(14, 99, 156);
+  width: 90%;
+  border-radius: 20px;
+  display: flex;
+  right: 0;
+  justify-content: center;
+  align-items: center;
 }
 
-.button-color span{
-    color: white
+.button-color span {
+  color: white;
 }
 
 .line {
-    height: 1px;
-    width: 30%;
-    margin-top: 4px;
-    background-color: #E0E0E0;
+  height: 1px;
+  width: 30%;
+  margin-top: 4px;
+  background-color: #e0e0e0;
 }
 
 .or {
-    width: 10%;
-    font-weight: bold;
-    font-size: 10px;
+  width: 10%;
+  font-weight: bold;
+  font-size: 10px;
 }
 
-::ng-deep .navigation .link nb-icon{
- display: none!important
+::ng-deep .navigation .link nb-icon {
+  display: none !important;
 }
 
-::ng-deep nb-card-body nb-auth-block{
-    width: 100%;
-    max-width: 50%!important;
-   }
-
-.height-adjustment{
-    height: fit-content;
+::ng-deep nb-card-body nb-auth-block {
+  width: 100%;
+  max-width: 50% !important;
 }
 
+.height-adjustment {
+  height: fit-content;
+}
