@@ -1,0 +1,11 @@
+.active-lang {
+    color: #ffffff;
+    background: linear-gradient(90deg, #df9424 0%, #ebc05f 100%);
+    border-radius: 6px;
+}
+
+.border-style {
+    border: 1px solid #e2e8f0;
+    height: 48px;
+    width: auto;
+}

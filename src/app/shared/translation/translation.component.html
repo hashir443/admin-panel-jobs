@@ -1,0 +1,7 @@
+<div class="d-flex justify-content-end make-icon-to-cursor">
+    <div class="rounded border-style d-none d-lg-flex">
+        <div *ngFor="let lag of languages">
+            <div (click)="onLanguageChange(lag.code)" [ngClass]="lag.isSelected ? 'active-lang m-1' :''" class="py-2 px-4 "> {{lag.label}}</div>
+        </div>
+    </div>
+</div>
